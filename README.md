@@ -17,6 +17,7 @@
     另外注意，页面名字是头个单词大写；例如主页：名字定义为 net.hk515.PageObject.HomePage
     Value：页面对象的URL，可不填。
     Desc:页面对象中文描述-->
+
     <page pagename="org.webdriver.patatiumwebui.pageObject.LoginPage" value="" desc="京东登录页面">
         <!--管理一个页面的元素（webelement：input,select,textare,a,li等标签），一个page包含多个locator对象
         Type：定位方式，包含id,name,class,linktext,xpath,css等，定位元素的时候灵活使用，一般可以统一用xpath
